@@ -23,3 +23,5 @@ django-parler==1.9.1
 
 # To parse HTML in tests
 beautifulsoup4==4.6.0
+django>=4.2.22 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
